@@ -4,10 +4,10 @@
 $emp = [
 
     [1, "Vaibhav", "Web Developer", 600000],
-    [1, "Krishna", "Android Developer", 400000],
-    [1, "Vaishnawi", "Data Analyst", 300000],
-    [1, "Ansh", "Sales Man", 200000],
-    [1, "Priya", "Cloud Developer", 300000],
+    [2, "Krishna", "Android Developer", 400000],
+    [3, "Vaishnawi", "Data Analyst", 300000],
+    [4, "Ansh", "Sales Man", 200000],
+    [5, "Priya", "Cloud Developer", 300000],
 
 ];
 // echo $emp[2][1] . "<br>";
