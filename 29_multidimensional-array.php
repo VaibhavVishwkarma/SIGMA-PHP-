@@ -6,7 +6,7 @@ $emp = [
     [1, "Vaibhav", "Web Developer", 600000],
     [1, "Krishna", "Android Developer", 400000],
     [1, "Vaishnawi", "Data Analyst", 300000],
-    [1, "Ansh", "Operation Manager", 200000],
+    [1, "Ansh", "Sales Man", 200000],
     [1, "Priya", "Cloud Developer", 300000],
 
 ];
