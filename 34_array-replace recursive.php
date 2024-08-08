@@ -1,6 +1,6 @@
 <?php
 
-# For associative array we use array_replace function; 
+# For index array we use array_replace function; 
 
 $a = ["Vaibhav", "Vaishnawi", "Rohan", "Raj"];
 $b = ["Piya","Anu","Shree" ];
