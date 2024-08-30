@@ -3,11 +3,10 @@
 $x = 10;
 $y = 20;
 
-if($x == $y){
+// Check if $x is equal to $y
+if ($x == $y) {
     echo "Number is equal";
-}
-else{
+} else {
     echo "Number is not equal";
-} 
+}
 
-?>

@@ -1,8 +1,13 @@
-<?php 
+<?php
 
+// Define a string variable
 $a = "Hello";
-$a .=  " World";
 
+// Concatenate another string to $a
+$a .= " World";
+
+// Output the concatenated string
 echo $a;
+?>
 
 ?>

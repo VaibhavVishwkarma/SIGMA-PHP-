@@ -1,29 +1,29 @@
 <?php
 
-// $colors  =  [
-    
-//     "green",
-//     "yellow",
-//     "red",
-//     "pink",
-    
-//     ];
+// Define an array of colors
+$colors = [
+    "green",
+    "yellow",
+    "red",
+    "pink",
+];
 
-    // foreach($colors as $value)
-    // {
-    //     echo $value ."<br>";
-    // }
+// Loop through each color and print it
+foreach($colors as $value) {
+    echo $value . "<br>";
+}
 
-    $age = [
-        "Harshit" => 18,
-        "Rohan" => 23,
-        "Vishnawi" => 17,
-        "Mehul" => 20,
-    ];
+// Define an associative array of ages
+$age = [
+    "Harshit" => 18,
+    "Rohan" => 23,
+    "Vishnawi" => 17,
+    "Mehul" => 20,
+];
 
-    foreach($age as $key => $value)
-    {
-        echo $key. " = " . $value."<br>";
-    }
+// Loop through each key-value pair in the ages array and print them
+foreach($age as $key => $value) {
+    echo $key . " = " . $value . "<br>";
+}
 
-?>
+

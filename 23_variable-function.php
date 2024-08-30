@@ -1,22 +1,26 @@
 <?php
 
-# Method 1
+# Method 1: Using Variable Function Names
 
-// function wow($name)
-// {
-//     echo "Hello $name";
-// }
+// Define a function named 'wow' that greets the user
+function wow($name) {
+    echo "Hello $name<br>";
+}
 
-// $func = "wow";
-// $func("Vaibhav Bhai kya haal hai...");
+// Store the function name 'wow' in a variable
+$func = "wow";
 
-# Method 2
+// Call the function using the variable
+$func("Vaibhav Bhai kya haal hai...<br>");
 
-$sayHello = function($name)
-{
-    echo "Hello Vaibhav $name";
-}; #semicolon is must for this synatx...
+# Method 2: Using Anonymous Functions (Closures)
 
-$sayHello("Kya haal hai bhai...");
+// Define an anonymous function (closure) that greets the user
+$sayHello = function($name) {
+    echo "Hello Vaibhav $name<br>";
+}; // Semicolon is required here to terminate the function definition
+
+// Call the anonymous function
+$sayHello("Kya haal hai bhai...<br>");
 
 ?>

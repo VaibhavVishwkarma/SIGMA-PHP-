@@ -21,4 +21,3 @@ echo array_search("Momos", $food, true);  // for search the key  or index this m
 echo "<br>";
 
 
-?>

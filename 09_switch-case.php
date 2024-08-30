@@ -2,6 +2,7 @@
 
 $day = 6;
 
+// Switch statement to determine the day of the week
 switch ($day) {
     case 1:
         echo "Today is Monday";
@@ -28,3 +29,4 @@ switch ($day) {
         echo "Invalid day";
         break;
 }
+

@@ -39,6 +39,6 @@ foreach ($emp as $v1) {
 echo "</table>";
 
 
-// echo "<pre>";
-// print_r ($emp);
-// echo "</pre>";
+echo "<pre>";
+print_r ($emp);
+echo "</pre>";

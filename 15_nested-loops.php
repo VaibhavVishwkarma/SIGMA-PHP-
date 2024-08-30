@@ -1,13 +1,24 @@
 <?php
 
-$i =1;
-$j = 1;
+// Start the table
+echo "<table border='1' cellpadding='5'>";
 
-for ($i = 0; $i < 10; $i++) {       
+// Outer loop: iterates for each row
+for ($i = 0; $i < 10; $i++) {
+    // Start a new row
+    echo "<tr>";
+
+    // Inner loop: iterates for each column
     for ($j = 0; $j < 10; $j++) {
-        echo $j . "<br>";
+        // Output the value of $j in a table cell
+        echo "<td>$j</td>";
     }
-    echo $i . "<br>";
+
+    // End the row
+    echo "</tr>";
 }
+
+// End the table
+echo "</table>";
 
 ?>

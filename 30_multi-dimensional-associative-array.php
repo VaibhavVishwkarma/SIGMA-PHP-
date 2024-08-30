@@ -42,7 +42,7 @@ foreach($marks as $key => $value)
 }
 
 echo "</table>";
-// echo "<pre>";
-// print_r($marks);
-// echo "</pre>";
+echo "<pre>";
+print_r($marks);
+echo "</pre>";
 ?>

@@ -1,5 +1,7 @@
 <?php
 
+//It dosen't return the value while map function return
+
 $a = [
     "Bill"=> "10",
     "Peter"=> "20",

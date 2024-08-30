@@ -1,7 +1,20 @@
 <?php
-
+// Define an integer variable
 $x = 50;
 
-($x < 20) ? $z = "Greater" : $z = "Smaller";
+// Ternary operator: assigns "Smaller" if $x < 20, otherwise "Greater"
+$z = ($x < 20) ? "Greater" : "Smaller";
 
+// Output $z
 echo $z;
+
+# Notes:
+
+/* Ternary Operator: (condition) ? trueValue : falseValue;
+ Purpose: Simplifies if-else statements for assigning values. */
+
+
+
+
+
+
